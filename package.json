@@ -1,5 +1,5 @@
 {
-  "name": "weather_app_demo",
+  "name": "weather_api",
   "version": "1.0.0",
   "description": "this is a demo project to present how codespace works and github along withit",
   "main": "index.js",
