@@ -1,0 +1,25 @@
+{
+  "name": "weather_app_demo",
+  "version": "1.0.0",
+  "description": "this is a demo project to present how codespace works and github along withit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "nodemon": "^3.1.0",
+    "npm-run-all": "^4.1.5",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}
