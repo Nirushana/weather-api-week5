@@ -1,4 +1,5 @@
 import express from "express";
+import weatherRoute from "./routes/weatherRoute.js";
 
 // We will create an express app
 const app = express();
@@ -7,8 +8,11 @@ const app = express();
 const PORT = 3000;
 
 app.use(express.json());
-1
+
+// We define our first route
+app.use("/api/weather", weatherRoute);
+
 // Start the express server
 app.listen(PORT, () => {
-console.log(`Server is listening on port ${PORT}`);
+  console.log(`Server is listening on port ${PORT}`);
 });

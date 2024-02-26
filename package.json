@@ -4,6 +4,11 @@
   "description": "this is a demo project to present how codespace works and github along withit",
   "main": "index.js",
   "scripts": {
+    "start": "node dist/src/server.js",
+    "dev": "nodemon dist/src/server.js",
+    "build": "tsc -p tsconfig.json",
+    "build:watch": "tsc -w -p tsconfig.json",
+    "dev:start": "nodemon dist/src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,9 +20,14 @@
     "express-validator": "^7.0.1"
   },
   "devDependencies": {
+    "@types/express": "^4.17.21",
     "@types/node": "^20.11.20",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint": "^8.57.0",
     "nodemon": "^3.1.0",
     "npm-run-all": "^4.1.5",
+    "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3"
